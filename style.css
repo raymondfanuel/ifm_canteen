@@ -1,0 +1,79 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #005a87;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('images/hero.jpg') no-repeat center center/cover;
+  padding: 100px 20px;
+  color: white;
+  text-align: center;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: auto;
+  margin: auto;
+}
+
+.menu h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.my-menu {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 10px;
+  border: 2px solid #007bb5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  background: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 5px solid #007bb5;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.menu-item img {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #005a87;
+  color: white;
+}
