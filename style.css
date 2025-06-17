@@ -81,9 +81,91 @@ section {
   border-radius: 8px;
 }
 
+.about {
+  text-align: justify;
+}
+
 footer {
   text-align: center;
   padding: 20px;
   background-color: #005a87;
   color: white;
+}
+
+
+@media (max-width: 768px) {
+  .my-menu {
+    grid-template-columns: 100%;
+  }
+
+  .hero {
+    padding: 60px 15px;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .menu-item {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .menu-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 20px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+}
+
+
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+    flex-direction: column;
+    background-color: #005a87;
+    padding: 10px 0;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin-top: 10px;
+  }
+
+  nav.show {
+    display: flex;
+  }
 }
