@@ -109,6 +109,13 @@ section {
   margin-bottom: 10px;
 }
 
+.gallery-images img {
+  width: 17%;
+  height: auto;
+  border-radius: 10px;
+  
+}
+
 footer {
   text-align: center;
   padding: 10px;
