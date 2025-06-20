@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -15,21 +15,27 @@ body {
 header {
   background-color: #005a87;
   color: #fff;
-  padding: 20px 0;
+  display: flex;
+  padding-left: 3%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 3%;
+  justify-content: space-between;
+  text-align: center;
   position: sticky;
   top: 0;
-  text-align: center;
 }
 
 header nav a {
   color: #fff;
-  margin: 0 80px;
+  font-size: 20px;
   text-decoration: none;
+  padding: 20px;
   font-weight: bold;
 }
 
 .hero {
-  background: url('images/hero3.png') no-repeat center center/cover;
+  background: url('images/view/hero3.png') no-repeat center center/cover;
   padding: 100px 20px;
   color: rgb(17, 3, 97);
   text-align: center;
@@ -85,9 +91,27 @@ section {
   text-align: justify;
 }
 
+.contact p {
+  font-size: 15px;
+}
+
+.contact p .p-d {
+  font-size: 15px;
+}
+
+.contact p i {
+  color: #005a87;
+  border: 1px solid #005a87;
+  border-radius: 50%;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   background-color: #005a87;
   color: white;
 }
