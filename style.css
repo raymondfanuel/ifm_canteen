@@ -109,8 +109,21 @@ section {
   margin-bottom: 10px;
 }
 
+.gallery h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+
 .gallery-images img {
-  width: 17%;
+  width: 200px;
   height: auto;
   border-radius: 10px;
   
@@ -167,6 +180,22 @@ footer {
   .hero p {
     font-size: 14px;
   }
+
+  .gallery-images img {
+    width: 40%;
+    height: auto;
+  }
+
+  header {
+  flex-direction: column;
+  }
+
+  header nav a {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+
 }
 
 
