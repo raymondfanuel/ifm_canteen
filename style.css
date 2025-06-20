@@ -24,6 +24,7 @@ header {
   text-align: center;
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 
 header nav a {
@@ -55,6 +56,13 @@ section {
   max-width: auto;
   margin: auto;
 }
+
+.menu-item:hover, .gallery-images img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
 
 .menu h2 {
   margin-bottom: 20px;
@@ -118,7 +126,8 @@ section {
 .gallery-images {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
 }
 
@@ -195,7 +204,7 @@ footer {
     padding: 5px;
   }
 
-
+  
 }
 
 
